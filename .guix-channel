@@ -1,0 +1,6 @@
+;; _*_ mode: scheme: _*_
+
+
+(channel
+  (version 0)
+  (url "https://github.com/chuccle/chuccle-channel"))
