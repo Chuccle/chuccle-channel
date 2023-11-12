@@ -1,4 +1,4 @@
-(define-module (chuccle-de))
+(define-module (chuccle-channel environment chuccle-de))
 
 (use-modules (gnu packages suckless)
              (gnu packages xorg)
