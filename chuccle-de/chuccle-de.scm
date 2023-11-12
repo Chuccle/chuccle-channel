@@ -100,5 +100,3 @@
                 (sha256
                   (base32 "0gnxlv9qglgsgfrg5kb5kpsmbmjvz4pknnjj995wk9h093la2mkh"))
                 (file-name(git-file-name name "1")))))))
-
-chuccle-de
