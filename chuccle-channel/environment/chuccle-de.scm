@@ -63,13 +63,15 @@
 
     (define-public chuccle-dmenu
       (let(
-        (commit "6bd3860e4b84c7e2701ca3ab86d9c11355c47ebc")
+        (commit "6ac943bce34f9b6e8df5bcef59e92d7e97bbe55c")
         (revision "1")
         (url "https://github.com/Chuccle/dmenu-flexipatch"))
           (package
             (inherit dmenu)
             (name "chuccle-dmenu")
-            (inputs (modify-inputs (package-inputs dmenu)))
+            (inputs (modify-inputs 
+                    (package-inputs dmenu)
+                        (append libxrender)))
             (source
               (origin
                 (uri 
@@ -78,7 +80,7 @@
                     (commit commit)))
                 (method git-fetch)
                 (sha256
-                  (base32 "13r4iq86gbiyb4a65fpj7khsl4jrki1l69hd8f8vizk3vi2bgmv4"))
+                  (base32 "03k9apfip3rqf9vnwcmsc5n3yygp6bx34cx0rvkkpk2vxyah4nyj"))
                 (file-name(git-file-name name "1")))))))
 
     (define-public chuccle-slstatus
