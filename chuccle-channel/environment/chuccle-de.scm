@@ -83,7 +83,7 @@
 
     (define-public chuccle-slstatus
       (let(
-        (commit "66ca5d9c5e2a0675af6d95104486f61b52d56642")
+        (commit "a8cf2c05073b47f2f2234114456d401ffafc7270")
         (revision "1")
         (url "https://github.com/Chuccle/slstatus"))
           (package
@@ -97,5 +97,5 @@
                     (commit commit)))
                 (method git-fetch)
                 (sha256
-                  (base32 "1564ram2rrmzp472lm3cjab15cxppisl3f0rip7b5kbg7d13mkg4"))
+                  (base32 "0rw79w2lzf51irghgmcjgvvalrq1i6q8k4sfbdr02hdylkyhyk1q"))
                 (file-name(git-file-name name "1")))))))
