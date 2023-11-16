@@ -12,7 +12,6 @@
              (gnu packages)
 )
 
-
 (define-public chuccle-dwm
   (let(
     (commit "601240495aef4a9fd8904851fe4ae48a1f62d016")
@@ -84,7 +83,7 @@
 
     (define-public chuccle-slstatus
       (let(
-        (commit "f68f49273e70b3767b30c549dda04ddd4d25fc91")
+        (commit "66ca5d9c5e2a0675af6d95104486f61b52d56642")
         (revision "1")
         (url "https://github.com/Chuccle/slstatus"))
           (package
@@ -98,5 +97,5 @@
                     (commit commit)))
                 (method git-fetch)
                 (sha256
-                  (base32 "0gnxlv9qglgsgfrg5kb5kpsmbmjvz4pknnjj995wk9h093la2mkh"))
+                  (base32 "1564ram2rrmzp472lm3cjab15cxppisl3f0rip7b5kbg7d13mkg4"))
                 (file-name(git-file-name name "1")))))))
